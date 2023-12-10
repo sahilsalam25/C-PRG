@@ -5,6 +5,7 @@ int main(){
     int number,guess,numguesses=1;
     // int random;
     // int srandom;
+    
     srand(time(0));
     number=rand()%100 +1 ; // generate random no between 1 to 100 ;
     printf("the random number is : %d\n",number);
